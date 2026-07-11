@@ -42,3 +42,30 @@ next-env.d.ts
 
 # media files
 public/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# cache
+.cache/
+.turbo/
+.eslintcache
+.stylelintcache
+
+# temporary files
+*.tmp
+*.temp
+*.log
+
+# lock files (optional - uncomment if you don't want to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
