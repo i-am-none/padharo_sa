@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "../styles/tokens/index.css";
+@import "../styles/typography.css";
+@import "../styles/layout.css";
+@import "../styles/navigation.css";
+@import "../styles/hero.css";
+@import "../styles/atmosphere.css";
+@import "../styles/philosophy.css";
+@import "../styles/cuisine.css";
+
+@theme inline {
+  --color-background: var(--bg-base);
+  --color-foreground: var(--text-primary);
+  --color-bg-base: var(--bg-base);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-hover: var(--accent-hover);
+  --color-border-default: var(--border-default);
+  --color-border-soft: var(--border-soft);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans:
+    Inter, "Segoe UI", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  --font-mono:
+    "JetBrains Mono", "SFMono-Regular", ui-monospace, "Cascadia Code",
+    "Source Code Pro", Menlo, Consolas, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-offset-top) + var(--nav-height) + var(--space-4));
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  box-shadow:
+    0 0 0 2px var(--bg-base),
+    0 0 0 4px var(--accent-primary);
+}

@@ -1,0 +1,34 @@
+.nav-shell {
+  position: fixed;
+  inset-inline: 0;
+  top: var(--nav-offset-top);
+  z-index: var(--z-nav);
+  --nav-glass-opacity: 0;
+  --nav-border-opacity: 0;
+  --nav-shadow-opacity: 0;
+  --nav-logo-scale: var(--nav-logo-scale-default);
+}
+
+.nav-inner {
+  min-height: var(--nav-height);
+  border-radius: var(--radius-pill);
+  border: 1px solid
+    rgb(var(--border-soft-rgb) / calc(var(--nav-border-opacity) * 0.75));
+  background: rgb(var(--overlay-rgb) / calc(var(--nav-glass-opacity) * 0.72));
+  backdrop-filter: blur(calc(var(--nav-glass-opacity) * var(--blur-glass)));
+  -webkit-backdrop-filter: blur(
+    calc(var(--nav-glass-opacity) * var(--blur-glass))
+  );
+  box-shadow: 0 14px 40px rgb(0 0 0 / calc(var(--nav-shadow-opacity) * 0.24));
+}
+
+.nav-logo-scale {
+  transform: scale(var(--nav-logo-scale));
+  transform-origin: left center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

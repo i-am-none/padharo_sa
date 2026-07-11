@@ -1,0 +1,253 @@
+{
+  "hero": {
+    "id": "hero",
+    "eyebrow": "Authentic Rajasthan",
+    "headline": "Experience the Soul of Rajasthan.",
+    "copy": "Warm light, royal hospitality, and crafted cuisine invite you into an evening shaped by story, heritage, and celebration.",
+    "primaryCta": {
+      "label": "Reserve Your Table",
+      "href": "#reservation"
+    },
+    "secondaryCta": {
+      "label": "Discover More",
+      "href": "#experience"
+    },
+    "scrollLabel": "Scroll to continue the Padharo Sa story",
+    "video": {
+      "poster": "/images/food/pexels-anand-raj-222546-5775684.jpg",
+      "sources": [
+        {
+          "src": "/videos/9797433-hd_1920_1080_25fps.mp4",
+          "type": "video/mp4"
+        },
+        {
+          "src": "/videos/15226191_1920_1080_50fps.mp4",
+          "type": "video/mp4"
+        },
+        {
+          "src": "/videos/15193692_1920_1080_50fps.mp4",
+          "type": "video/mp4"
+        },
+        {
+          "src": "/videos/12058447_3840_2160_60fps.mp4",
+          "type": "video/mp4"
+        },
+        {
+          "src": "/videos/8811060-hd_1920_1080_25fps.mp4",
+          "type": "video/mp4"
+        }
+      ]
+    }
+  },
+  "atmosphere": {
+    "id": "atmosphere",
+    "eyebrow": "Royal Hospitality",
+    "headline": "Step Into Timeless Rajasthan.",
+    "copy": "Every handcrafted detail, every warm greeting, and every softly lit corner is designed to make you feel at home while celebrating the rich traditions of Rajasthan.",
+    "quote": "Hospitality begins long before the first meal is served.",
+    "media": {
+      "type": "video",
+      "video": {
+        "poster": "/images/hero-poster.svg",
+        "sources": [
+          {
+            "src": "/videos/jli_tribeca.mp4",
+            "type": "video/mp4"
+          }
+        ]
+      }
+    }
+  },
+  "philosophy": {
+    "id": "philosophy",
+    "eyebrow": "Our Philosophy",
+    "headline": "Preserving Tradition Through Hospitality",
+    "body": [
+      "Padharo Sa exists to preserve and present the authentic spirit of Rajasthani culture. Every dish, every gesture, and every detail carries the weight of centuries of tradition, passed down through generations of artisans, chefs, and hosts.",
+      "We believe that true hospitality is not merely about serving food—it is about creating an experience where every guest feels the warmth of being welcomed into a Rajasthani home. This philosophy of 'Atithi Devo Bhava'—the guest is god—guides everything we do.",
+      "Our commitment extends beyond the kitchen. We honor the craftsmanship of Rajasthan, from the intricate patterns of traditional textiles to the time-honored techniques of royal cuisine. Each visit is an invitation to become part of this living heritage."
+    ],
+    "principles": [
+      {
+        "title": "Authenticity Above All",
+        "description": "We preserve traditional recipes, techniques, and cultural practices without compromise."
+      },
+      {
+        "title": "Craftsmanship in Every Detail",
+        "description": "From handcrafted spices to carefully curated interiors, excellence is our standard."
+      },
+      {
+        "title": "Hospitality as Heritage",
+        "description": "We treat every guest as family, honoring the ancient tradition of welcoming strangers."
+      }
+    ],
+    "quote": "We do not simply serve food. We share a piece of Rajasthan's soul with every guest who walks through our doors.",
+    "media": {
+      "type": "video",
+      "video": {
+        "poster": "/images/hero-poster.svg",
+        "sources": [
+          {
+            "src": "/videos/8811071-hd_1920_1080_25fps.mp4",
+            "type": "video/mp4"
+          }
+        ]
+      }
+    }
+  },
+  "cuisine": {
+    "id": "cuisine",
+    "eyebrow": "Signature Cuisine",
+    "headline": "Crafted With Centuries of Wisdom",
+    "copy": "Each dish tells a story of Rajasthan's royal kitchens, where recipes were perfected over generations and spices were treated as precious treasures. Our signature offerings honor this legacy while celebrating the vibrant flavors that define authentic Rajasthani cuisine.",
+    "quote": "Food is not merely sustenance—it is memory, tradition, and love served on a plate.",
+    "media": {
+      "type": "video",
+      "video": {
+        "poster": "/images/food/pexels-anand-raj-222546-5775684.jpg",
+        "sources": [
+          {
+            "src": "/videos/15226191_1920_1080_50fps.mp4",
+            "type": "video/mp4"
+          }
+        ]
+      }
+    },
+    "dishes": [
+      {
+        "id": "laal-maas",
+        "name": "Laal Maas",
+        "description": "A legendary Rajasthani lamb curry, slow-cooked with traditional mathani chilies and aromatic spices, creating a rich, fiery red dish that embodies the warrior spirit of Rajasthan.",
+        "ingredients": [
+          {
+            "name": "Tender lamb",
+            "highlight": true
+          },
+          {
+            "name": "Mathani chilies",
+            "highlight": true
+          },
+          {
+            "name": "Cumin",
+            "highlight": false
+          },
+          {
+            "name": "Coriander",
+            "highlight": false
+          },
+          {
+            "name": "Garlic",
+            "highlight": false
+          },
+          {
+            "name": "Ginger",
+            "highlight": false
+          }
+        ],
+        "media": {
+          "type": "video",
+          "video": {
+            "poster": "/images/hero-poster.svg",
+            "sources": [
+              {
+                "src": "/videos/padharo_sa_1.mp4",
+                "type": "video/mp4"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "dal-bati-churma",
+        "name": "Dal Bati Churma",
+        "description": "The quintessential Rajasthani trio—hard wheat rolls baked over charcoal, served with lentil curry and sweet crushed wheat, representing the harmony of flavors that sustained desert communities for centuries.",
+        "ingredients": [
+          {
+            "name": "Wheat bati",
+            "highlight": true
+          },
+          {
+            "name": "Panchmel dal",
+            "highlight": true
+          },
+          {
+            "name": "Churma",
+            "highlight": true
+          },
+          {
+            "name": "Ghee",
+            "highlight": true
+          },
+          {
+            "name": "Cumin",
+            "highlight": false
+          },
+          {
+            "name": "Asafoetida",
+            "highlight": false
+          }
+        ],
+        "media": {
+          "type": "video",
+          "video": {
+            "poster": "/images/hero-poster.svg",
+            "sources": [
+              {
+                "src": "/videos/jli_tribeca.mp4",
+                "type": "video/mp4"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ker-sangri",
+        "name": "Ker Sangri",
+        "description": "A desert delicacy born from necessity, featuring wild berries and dried beans cooked with yogurt and spices, showcasing the ingenuity of Rajasthani cuisine in transforming scarce ingredients into culinary art.",
+        "ingredients": [
+          {
+            "name": "Ker berries",
+            "highlight": true
+          },
+          {
+            "name": "Sangri beans",
+            "highlight": true
+          },
+          {
+            "name": "Yogurt",
+            "highlight": true
+          },
+          {
+            "name": "Mustard oil",
+            "highlight": false
+          },
+          {
+            "name": "Fenugreek",
+            "highlight": false
+          },
+          {
+            "name": "Red chilies",
+            "highlight": false
+          }
+        ],
+        "media": {
+          "type": "video",
+          "video": {
+            "poster": "/images/hero-poster.svg",
+            "sources": [
+              {
+                "src": "/videos/8811071-hd_1920_1080_25fps.mp4",
+                "type": "video/mp4"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "cta": {
+      "label": "Begin Your Culinary Journey",
+      "description": "Explore our complete collection of authentic Rajasthani dishes, thoughtfully prepared and ready to be experienced.",
+      "href": "/menu"
+    }
+  }
+}

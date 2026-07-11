@@ -1,0 +1,91 @@
+.text-nav {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-nav);
+  font-weight: 500;
+  letter-spacing: var(--nav-link-tracking);
+  line-height: var(--line-height-label);
+  text-transform: uppercase;
+}
+
+.text-cta {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-cta);
+  font-weight: 600;
+  letter-spacing: var(--tracking-button);
+  line-height: var(--line-height-label);
+  text-transform: uppercase;
+}
+
+.text-logo {
+  font-family: var(--font-display);
+  font-size: var(--font-size-logo);
+  font-weight: 700;
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--line-height-heading);
+}
+
+.text-hero-eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-hero-eyebrow);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  line-height: var(--line-height-label);
+  text-transform: uppercase;
+  color: var(--accent-primary);
+}
+
+.text-hero-headline {
+  max-width: var(--hero-headline-max-width);
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-weight: 700;
+  letter-spacing: var(--tracking-display);
+  line-height: 1.02;
+  color: var(--text-heading);
+  text-wrap: balance;
+}
+
+.text-hero-copy {
+  max-width: var(--hero-content-width-copy);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-hero-copy);
+  font-weight: 400;
+  line-height: var(--line-height-body);
+  color: var(--text-secondary);
+}
+
+.text-hero-cta {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-hero-cta);
+  font-weight: 600;
+  letter-spacing: var(--tracking-button);
+  line-height: var(--line-height-label);
+  text-transform: uppercase;
+}
+
+.text-hero-scroll {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-hero-scroll);
+  font-weight: 500;
+  letter-spacing: var(--tracking-hero-scroll);
+  line-height: var(--line-height-label);
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 1023px) {
+  .text-hero-headline {
+    font-size: clamp(3.125rem, 8vw, 4.75rem);
+  }
+}
+
+@media (max-width: 767px) {
+  .text-hero-headline {
+    font-size: clamp(2.75rem, 10vw, 3.75rem);
+    line-height: 1.05;
+  }
+
+  .text-hero-copy {
+    font-size: var(--font-size-hero-copy-mobile);
+  }
+}
