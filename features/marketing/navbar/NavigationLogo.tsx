@@ -21,7 +21,7 @@ export function NavigationLogo({ label, onNavigate, className }: NavigationLogoP
         onClick={onNavigate}
       >
         <Image
-          src="/logos/Logo-padharo-sa1-1024x410.webp"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784608071/Logo-padharo-sa1-1024x410_ro9af0.webp"
           alt={label}
           width={200}
           height={80}

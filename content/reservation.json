@@ -8,8 +8,8 @@
       "poster": "/images/hero-poster.svg",
       "sources": [
         {
-          "src": "/videos/Reservation/buffet.mp4",
-          "type": "video/mp4"
+          "src": "https://res.cloudinary.com/zrqybpla/video/upload/v1784387827/Buffet_fgqctn.webm",
+          "type": "video/webm"
         }
       ]
     }

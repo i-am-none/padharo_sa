@@ -9,14 +9,35 @@
       "rating": 4.8,
       "totalReviews": 156,
       "verificationUrl": "https://search.google.com/local/writereview",
-      "logo": "/logos/google.png"
+      "logo": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/google_oxptkn.png"
     },
     "tripadvisor": {
       "name": "Tripadvisor",
       "rating": 4.7,
       "totalReviews": 89,
       "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit",
-      "logo": "/logos/TripAdvisor.png"
+      "logo": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/TripAdvisor_bqbeuc.png"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "rating": 0,
+      "totalReviews": 0,
+      "verificationUrl": "https://instagram.com/padharosa",
+      "logo": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608069/insta_yhbmbs.jpg"
+    },
+    "facebook": {
+      "name": "Facebook",
+      "rating": 0,
+      "totalReviews": 0,
+      "verificationUrl": "https://facebook.com/padharosa",
+      "logo": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608069/facebook_skfnsx.png"
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "rating": 0,
+      "totalReviews": 0,
+      "verificationUrl": "https://tiktok.com/@padharosa",
+      "logo": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608068/tiktok_j51qd9.jpg"
     }
   },
   "googleReviews": [
@@ -25,7 +46,7 @@
       "platform": "google",
       "reviewer": {
         "name": "Priya Sharma",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "An absolutely authentic Rajasthani dining experience. The dal baati churma transported me straight to Jaipur. The flavors are genuine and the hospitality is warm and welcoming.",
@@ -37,7 +58,7 @@
       "platform": "google",
       "reviewer": {
         "name": "Rajesh Patel",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "Best vegetarian Indian food in Mauritius. The gatte ki sabzi and ker sangri were exceptional. A must-visit for anyone craving authentic Rajasthani cuisine.",
@@ -49,7 +70,7 @@
       "platform": "google",
       "reviewer": {
         "name": "Sarah Johnson",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 4,
       "comment": "Wonderful atmosphere and delicious food. The staff was knowledgeable about the dishes and their origins. Highly recommend the thali for a complete experience.",
@@ -63,7 +84,7 @@
       "platform": "tripadvisor",
       "reviewer": {
         "name": "Michael Chen",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "Hidden gem in Mauritius! The authentic flavors of Rajasthan are perfectly preserved. Every dish tells a story of tradition and craftsmanship.",
@@ -75,7 +96,7 @@
       "platform": "tripadvisor",
       "reviewer": {
         "name": "Emma Williams",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "Exceptional vegetarian cuisine. The attention to detail in each dish is remarkable. The laal maas vegetarian version was a pleasant surprise.",
@@ -87,7 +108,7 @@
       "platform": "tripadvisor",
       "reviewer": {
         "name": "David Kumar",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 4,
       "comment": "Authentic taste of Rajasthan in Mauritius. The spices are perfectly balanced and the presentation is elegant. Will definitely return.",
@@ -101,7 +122,7 @@
       "platform": "google",
       "reviewer": {
         "name": "Priya Sharma",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "An absolutely authentic Rajasthani dining experience. The dal baati churma transported me straight to Jaipur. The flavors are genuine and the hospitality is warm and welcoming. This is not just a meal, it's a journey through Rajasthan's rich culinary heritage.",
@@ -114,7 +135,7 @@
       "platform": "tripadvisor",
       "reviewer": {
         "name": "Michael Chen",
-        "profileImage": "/logos/review-profile-placeholder.jpg"
+        "profileImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608070/review-profile-placeholder_hgqvjg.jpg"
       },
       "rating": 5,
       "comment": "Hidden gem in Mauritius! The authentic flavors of Rajasthan are perfectly preserved. Every dish tells a story of tradition and craftsmanship. The staff's passion for their cuisine shines through in every bite.",

@@ -5,7 +5,7 @@
     "description": "Discover authentic Rajasthani cuisine crafted with time-honored recipes and the finest ingredients.",
     "media": {
       "type": "video",
-      "src": "/videos/Menu/chef-pav-bhaji.mp4",
+      "src": "https://res.cloudinary.com/zrqybpla/video/upload/v1784387839/Chef-Pav-Bhaji_deq3wm.webm",
       "poster": "/images/hero-poster.svg"
     }
   },
@@ -17,21 +17,21 @@
         "id": "royal-feast",
         "title": "Royal Feast",
         "description": "Dishes once served in the palaces of Rajasthan",
-        "image": "/images/food/royal-feast-menu.jpg",
+        "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608122/dal_t4hhlh.jpg",
         "dishCount": 12
       },
       {
         "id": "street-food",
         "title": "Street Food Classics",
         "description": "Authentic flavors from the bustling streets of Jaipur",
-        "image": "/images/food/street-food-menu.jpg",
+        "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608121/street-food-menu_by0qbl.jpg",
         "dishCount": 8
       },
       {
         "id": "vegetarian-delights",
         "title": "Vegetarian Delights",
         "description": "Plant-based treasures of Rajasthani cuisine",
-        "image": "/images/food/veg-delight-menu.jpg",
+        "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608115/pexels-everest-tandoori-1591826630-27929056_gsdkik.jpg",
         "dishCount": 15
       }
     ]
@@ -86,7 +86,7 @@
       "category": "main-course",
       "description": "The quintessential Rajasthani trio of lentils, baked wheat bread, and sweet crushed bread",
       "price": 650,
-      "image": "/images/stories/blog-2.png",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608051/blog-2_bwvl7y.png",
       "dietary": ["vegetarian"],
       "allergens": ["gluten", "dairy"],
       "spiceLevel": 2,
@@ -100,7 +100,7 @@
       "category": "main-course",
       "description": "Traditional desert beans and berries cooked with aromatic spices",
       "price": 450,
-      "image": "/images/food/pexels-karan-mridha-17124288-32825914.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608114/samosa_k2ou5p.jpg",
       "dietary": ["vegetarian"],
       "allergens": [],
       "spiceLevel": 2,
@@ -114,7 +114,7 @@
       "category": "main-course",
       "description": "Gram flour dumplings in a spiced yogurt curry",
       "price": 380,
-      "image": "/images/food/pexels-dhiraj-jain-207743066-12737918.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/gatte_fcadmt.jpg",
       "dietary": ["vegetarian"],
       "allergens": ["gluten", "dairy"],
       "spiceLevel": 2,
@@ -128,7 +128,7 @@
       "category": "starters",
       "description": "Crispy pastry filled with spiced onion mixture",
       "price": 280,
-      "image": "/images/food/pexels-shootsaga-33428723.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608122/dal_t4hhlh.jpg",
       "dietary": ["vegetarian"],
       "allergens": ["gluten"],
       "spiceLevel": 2,
@@ -142,7 +142,7 @@
       "category": "starters",
       "description": "Stuffed chili fritters with potato filling",
       "price": 240,
-      "image": "/images/food/pexels-shootsaga-33430559.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/pexels-shootsaga-33428723_jv8s5j.jpg",
       "dietary": ["vegetarian"],
       "allergens": ["gluten"],
       "spiceLevel": 3,
@@ -156,7 +156,7 @@
       "category": "desserts",
       "description": "Traditional Rajasthani sweet disc made with flour and ghee",
       "price": 350,
-      "image": "/images/food/pexels-yankrukov-8818667.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608119/pexels-dhiraj-jain-207743066-12737918_gmbaze.jpg",
       "dietary": ["vegetarian"],
       "allergens": ["gluten", "dairy"],
       "spiceLevel": 0,
@@ -170,7 +170,7 @@
       "category": "desserts",
       "description": "Sweet pancakes soaked in sugar syrup",
       "price": 280,
-      "image": "/images/food/pexels-yankrukov-8818723.jpg",
+      "image": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/pexels-shootsaga-33428723_jv8s5j.jpg",
       "dietary": ["vegetarian"],
       "allergens": ["gluten", "dairy"],
       "spiceLevel": 0,

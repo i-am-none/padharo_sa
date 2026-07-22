@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { contactConfig } from '@/lib/config/contact';
 
 export function Footer() {
@@ -17,7 +18,13 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* About */}
           <div className="space-y-4">
-            <h3 className="text-logo mb-4">Padharo Sa</h3>
+            <Image
+              src="https://res.cloudinary.com/zrqybpla/image/upload/v1784608071/Logo-padharo-sa1-1024x410_ro9af0.webp"
+              alt="Padharo Sa"
+              width={200}
+              height={80}
+              className="h-12 w-auto object-contain mb-4"
+            />
             <p className="font-sans text-sm leading-relaxed text-text-secondary">
               A premium Rajasthani hospitality experience in Mauritius, bringing the
               authentic flavors and royal traditions of Rajasthan to your table.

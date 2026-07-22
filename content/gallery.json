@@ -7,7 +7,7 @@
     {
       "id": "gallery-1",
       "type": "image",
-      "src": "/images/food/gal1.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608051/blog-2_bwvl7y.png",
       "title": "Dal Baati Churma Presentation",
       "category": "culinary",
       "description": "Our signature dish presented with traditional Rajasthani elegance"
@@ -15,7 +15,7 @@
     {
       "id": "gallery-2",
       "type": "image",
-      "src": "/images/food/gal2.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608121/street-food-menu_by0qbl.jpg",
       "title": "Royal Dining Ambience",
       "category": "ambience",
       "description": "Experience the warmth of Indian hospitality in our elegant dining space"
@@ -23,7 +23,7 @@
     {
       "id": "gallery-3",
       "type": "video",
-      "src": "/videos/padharo_shot_1.mp4",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784387839/Chef-Pav-Bhaji_deq3wm.webm",
       "poster": "/images/hero-poster.svg",
       "title": "Culinary Craftsmanship",
       "category": "behind-scenes",
@@ -32,7 +32,7 @@
     {
       "id": "gallery-4",
       "type": "image",
-      "src": "/images/food/gal3.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608122/dal_t4hhlh.jpg",
       "title": "Traditional Thali Experience",
       "category": "culinary",
       "description": "A complete Rajasthani thali featuring diverse flavours and textures"
@@ -40,7 +40,7 @@
     {
       "id": "gallery-5",
       "type": "image",
-      "src": "/images/food/gal4.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608115/pexels-everest-tandoori-1591826630-27929056_gsdkik.jpg",
       "title": "Family Celebrations",
       "category": "hospitality",
       "description": "Creating memorable moments for families and friends"
@@ -48,7 +48,7 @@
     {
       "id": "gallery-6",
       "type": "image",
-      "src": "/images/food/gal5.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/gatte_fcadmt.jpg",
       "title": "Heritage Artwork",
       "category": "culture",
       "description": "Traditional Rajasthani art adorning our walls"
@@ -56,7 +56,7 @@
     {
       "id": "gallery-7",
       "type": "video",
-      "src": "/videos/jli_tribeca.mp4",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784387827/Buffet_fgqctn.webm",
       "poster": "/images/hero-poster.svg",
       "title": "Behind the Scenes",
       "category": "behind-scenes",
@@ -65,7 +65,7 @@
     {
       "id": "gallery-8",
       "type": "image",
-      "src": "/images/gallery/ghevar-sweet.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608119/pexels-dhiraj-jain-207743066-12737918_gmbaze.jpg",
       "title": "Ghevar Delight",
       "category": "culinary",
       "description": "Traditional Rajasthani sweet crafted with precision"
@@ -73,7 +73,7 @@
     {
       "id": "gallery-9",
       "type": "image",
-      "src": "/images/food/chef.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608114/samosa_k2ou5p.jpg",
       "title": "Warm Hospitality",
       "category": "hospitality",
       "description": "Our team ensuring every guest feels like family"
@@ -81,7 +81,7 @@
     {
       "id": "gallery-10",
       "type": "image",
-      "src": "/images/res/res1.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608123/royal-feast-menu_efx9fj.jpg",
       "title": "Evening Atmosphere",
       "category": "ambience",
       "description": "The magical ambiance of dining under warm lights"
@@ -89,7 +89,7 @@
     {
       "id": "gallery-11",
       "type": "image",
-      "src": "/images/res/res2.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/pexels-shootsaga-33428723_jv8s5j.jpg",
       "title": "Cultural Textiles",
       "category": "culture",
       "description": "Authentic Rajasthani textiles showcasing rich heritage"
@@ -97,7 +97,7 @@
     {
       "id": "gallery-12",
       "type": "image",
-      "src": "/images/gallery/spice-display.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/gatte_fcadmt.jpg",
       "title": "Aromatic Spices",
       "category": "culinary",
       "description": "The foundation of authentic Indian cuisine"
@@ -105,7 +105,7 @@
     {
       "id": "gallery-13",
       "type": "video",
-      "src": "/videos/padharo_shot_2.mp4",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784387839/Chef-Pav-Bhaji_deq3wm.webm",
       "poster": "/images/hero-poster.svg",
       "title": "Restaurant Tour",
       "category": "ambience",
@@ -114,7 +114,7 @@
     {
       "id": "gallery-14",
       "type": "image",
-      "src": "/images/gallery/celebration-dinner.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608121/street-food-menu_by0qbl.jpg",
       "title": "Special Celebrations",
       "category": "hospitality",
       "description": "Making every occasion extraordinary"
@@ -122,7 +122,7 @@
     {
       "id": "gallery-15",
       "type": "image",
-      "src": "/images/gallery/rajasthani-decor.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608115/pexels-everest-tandoori-1591826630-27929056_gsdkik.jpg",
       "title": "Cultural Decor",
       "category": "culture",
       "description": "Authentic decor elements from Rajasthan"
@@ -130,7 +130,7 @@
     {
       "id": "gallery-16",
       "type": "image",
-      "src": "/images/gallery/plating-detail.jpg",
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608051/blog-2_bwvl7y.png",
       "title": "Artistic Plating",
       "category": "culinary",
       "description": "Where culinary art meets visual presentation"

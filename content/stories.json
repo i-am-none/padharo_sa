@@ -7,7 +7,7 @@
       "subtitle": "A Journey Through Royal Vegetarian Cuisine",
       "category": "heritage",
       "excerpt": "Food has always been more than nourishment. Across cultures, it has been a language of memories, celebrations, family bonds and identity. Discover how Jain's Little India brings the authentic soul of India to Mauritius through generations of culinary tradition.",
-      "coverImage": "/images/stories/blog-1.png",
+      "coverImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608049/blog-1_cq0wh9.png",
       "author": {
         "name": "Padharo Sa Kitchen",
         "role": "Cultural Storytellers"
@@ -117,7 +117,7 @@
       "subtitle": "The Heritage Dish That Carries Rajasthan's Identity",
       "category": "signature-dishes",
       "excerpt": "Discover the history behind Rajasthan's most recognised dish and the traditions preserved through every serving. A trinity of flavors that defines a region.",
-      "coverImage": "/images/stories/blog-2.png",
+      "coverImage": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608123/royal-feast-menu_efx9fj.jpg",
       "author": {
         "name": "Padharo Sa Kitchen",
         "role": "Cultural Storytellers"
