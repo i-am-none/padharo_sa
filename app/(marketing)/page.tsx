@@ -4,7 +4,7 @@ import { PhilosophySection } from '@/app/homepage/components/PhilosophySection';
 import { SignatureCuisineSection } from '@/app/homepage/components/SignatureCuisineSection';
 import { FeaturedDishesSection } from '@/app/homepage/components/FeaturedDishesSection';
 import { CulinaryJourneyCTA } from '@/app/homepage/components/CulinaryJourneyCTA';
-import { Footer } from '@/app/homepage/components/Footer';
+import { Footer } from '@/components/footer/Footer';
 import homeContent from '@/content/home.json';
 
 export default function HomePage() {
