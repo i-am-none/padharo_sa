@@ -92,7 +92,7 @@ export function FooterDecorations() {
       {/* Jaali Pattern - repeated, very low opacity */}
       <div className="absolute inset-0 opacity-[0.04]">
         <div className="absolute inset-0" style={{
-          backgroundImage: 'url(/elements/jaali-svg.svg)',
+          backgroundImage: 'url(https://res.cloudinary.com/zrqybpla/image/upload/v1784716136/jaali-svg.svg)',
           backgroundRepeat: 'repeat',
           backgroundSize: '300px auto',
         }} />
@@ -107,7 +107,7 @@ export function FooterDecorations() {
       >
         <div className="w-full h-0.5 bg-gradient-to-b from-amber-900/30 to-transparent mb-2" />
         <Image
-          src="/elements/lantern-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716136/lantern-svg_p2xfzd.svg"
           alt="Decorative lantern"
           width={60}
           height={80}
@@ -124,7 +124,7 @@ export function FooterDecorations() {
       >
         <div className="w-full h-0.5 bg-gradient-to-b from-amber-900/30 to-transparent mb-2" />
         <Image
-          src="/elements/lantern-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716136/lantern-svg_p2xfzd.svg"
           alt="Decorative lantern"
           width={70}
           height={90}
@@ -141,7 +141,7 @@ export function FooterDecorations() {
       >
         <div className="w-full h-0.5 bg-gradient-to-b from-amber-900/30 to-transparent mb-2" />
         <Image
-          src="/elements/lantern-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716136/lantern-svg_p2xfzd.svg"
           alt="Decorative lantern"
           width={55}
           height={75}
@@ -150,16 +150,6 @@ export function FooterDecorations() {
         />
       </div>
 
-      {/* Palace Arch - Center, behind newsletter, 12% opacity - Desktop only */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.12] hidden xl:block">
-        <Image
-          src="/elements/palace-arch-svg.svg"
-          alt="Palace arch"
-          width={400}
-          height={500}
-          priority={false}
-        />
-      </div>
 
       {/* Elephant - Near center, slightly larger - Desktop only */}
       <div
@@ -167,7 +157,7 @@ export function FooterDecorations() {
         className="absolute top-[30%] left-[55%] opacity-[0.08] hidden xl:block"
       >
         <Image
-          src="/elements/elephant-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716136/elephant-svg_namgdc.svg"
           alt="Decorative elephant"
           width={350}
           height={280}
@@ -181,7 +171,7 @@ export function FooterDecorations() {
         className="absolute bottom-[15%] left-[5%] opacity-[0.1] hidden xl:block"
       >
         <Image
-          src="/elements/camel-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716138/camel-svg_lg5qp3.svg"
           alt="Decorative camel"
           width={200}
           height={150}
@@ -190,27 +180,6 @@ export function FooterDecorations() {
         />
       </div>
 
-      {/* Folk Dancers - Bottom right, dancing toward center - Desktop only */}
-      <div className="absolute bottom-[12%] right-[5%] opacity-[0.08] hidden xl:flex gap-4">
-        <div ref={dancerLeftRef}>
-          <Image
-            src="/elements/dancer-left-svg.svg"
-            alt="Folk dancer"
-            width={120}
-            height={180}
-            priority={false}
-          />
-        </div>
-        <div ref={dancerRightRef}>
-          <Image
-            src="/elements/dancer-right-svg.svg"
-            alt="Folk dancer"
-            width={120}
-            height={180}
-            priority={false}
-          />
-        </div>
-      </div>
 
       {/* Peacock - Near copyright, symmetrical - Always visible */}
       <div
@@ -218,7 +187,7 @@ export function FooterDecorations() {
         className="absolute bottom-[20%] left-1/2 -translate-x-1/2 opacity-0"
       >
         <Image
-          src="/elements/peacock-svg.svg"
+          src="https://res.cloudinary.com/zrqybpla/image/upload/v1784716140/peacock-svg_vwgkdz.svg"
           alt="Decorative peacock"
           width={250}
           height={200}
