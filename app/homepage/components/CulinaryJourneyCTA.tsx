@@ -1,10 +1,13 @@
 import homeContent from '@/content/home.json';
+import { PeacockDecoration, LanternDecoration } from '@/components/decorative/SectionDecorations';
 
 export function CulinaryJourneyCTA() {
   const cta = homeContent.cuisine.cta;
 
   return (
-    <section className="section-shell">
+    <section className="section-shell relative">
+      <PeacockDecoration />
+      <LanternDecoration />
       <div className="layout-container">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="cuisine-headline mb-6">Begin Your <span className="highlight-yellow">Culinary Journey</span></h2>

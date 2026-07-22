@@ -2,6 +2,7 @@
 
 import { useRef, useEffect } from 'react';
 import { homeMedia } from '@/data/homeMedia';
+import { CamelDecoration } from '@/components/decorative/SectionDecorations';
 
 export function HospitalitySection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -22,7 +23,8 @@ export function HospitalitySection() {
   }, []);
 
   return (
-    <section id="hospitality" className="section-shell">
+    <section id="hospitality" className="section-shell relative">
+      <CamelDecoration />
       <div className="layout-container">
         <div className="section-layout section-layout--image-first">
           {/* Video */}

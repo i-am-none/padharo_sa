@@ -2,6 +2,7 @@
 
 import { useRef, useEffect } from 'react';
 import { homeMedia } from '@/data/homeMedia';
+import { LanternDecoration } from '@/components/decorative/SectionDecorations';
 
 export function SignatureCuisineSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -22,7 +23,8 @@ export function SignatureCuisineSection() {
   }, []);
 
   return (
-    <section id="cuisine" className="section-shell">
+    <section id="cuisine" className="section-shell relative">
+      <LanternDecoration />
       <div className="layout-container">
         <div className="section-layout section-layout--image-first">
           {/* Video */}

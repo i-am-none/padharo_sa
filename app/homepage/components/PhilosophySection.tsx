@@ -2,6 +2,7 @@
 
 import { useRef, useEffect } from 'react';
 import { homeMedia } from '@/data/homeMedia';
+import { ElephantDecoration } from '@/components/decorative/SectionDecorations';
 
 export function PhilosophySection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -22,7 +23,8 @@ export function PhilosophySection() {
   }, []);
 
   return (
-    <section id="philosophy" className="section-shell">
+    <section id="philosophy" className="section-shell relative">
+      <ElephantDecoration />
       <div className="layout-container">
         <div className="section-layout section-layout--text-first">
           {/* Content */}
