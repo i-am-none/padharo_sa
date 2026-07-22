@@ -1,0 +1,21 @@
+export { ContactPage } from "./contact-page";
+export { ContactHero } from "./contact-hero";
+export { ContactOverview } from "./contact-overview";
+export { RestaurantInformation } from "./restaurant-information";
+export { MapSection } from "./map-section";
+export { ContactForm } from "./contact-form";
+export { MessagingPlatforms } from "./messaging-platforms";
+export { SocialPresence } from "./social-presence";
+export { FAQ } from "./faq";
+export { ReservationCTA } from "./reservation-cta";
+
+export type { ContactPageContentModel } from "./contact-page/contact-page.types";
+export type { ContactHeroContentModel } from "./contact-hero/contact-hero.types";
+export type { ContactOverviewContentModel, ContactCard } from "./contact-overview/contact-overview.types";
+export type { RestaurantInformationContentModel, RestaurantInfo } from "./restaurant-information/restaurant-information.types";
+export type { MapSectionContentModel, MapConfig } from "./map-section/map-section.types";
+export type { ContactFormContentModel, ContactFormData } from "./contact-form/contact-form.types";
+export type { MessagingPlatformsContentModel, MessagingPlatform } from "./messaging-platforms/messaging-platforms.types";
+export type { SocialPresenceContentModel, SocialPlatform } from "./social-presence/social-presence.types";
+export type { FAQContentModel, FAQItem } from "./faq/faq.types";
+export type { ReservationCTAContentModel } from "./reservation-cta/reservation-cta.types";

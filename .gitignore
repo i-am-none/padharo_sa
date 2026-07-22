@@ -43,6 +43,9 @@ next-env.d.ts
 # media files
 public/
 
+# consolidated styles directory (removed during refactor)
+styles/
+
 # IDE
 .vscode/
 .idea/
@@ -64,6 +67,7 @@ Thumbs.db
 *.tmp
 *.temp
 *.log
+*.zip
 
 # lock files (optional - uncomment if you don't want to commit them)
 # package-lock.json

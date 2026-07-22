@@ -13,7 +13,7 @@ import {
   type MouseEvent,
 } from "react";
 
-import { Container } from "@/components/shared/layout/Container";
+import { Container } from "@/lib/components/Container";
 import { useFocusTrap } from "@/hooks/use-focus-trap";
 
 import { DesktopNavigation } from "./DesktopNavigation";
@@ -203,7 +203,7 @@ export function NavigationClient({ items, cta, brandLabel }: NavigationClientPro
   return (
     <header className="nav-shell" ref={navRef}>
       <Container>
-        <div className="nav-inner px-[var(--space-4)] sm:px-[var(--space-6)]">
+        <div className="nav-inner">
           <div className="grid min-h-[var(--nav-height)] grid-cols-[auto_1fr_auto] items-center gap-[var(--space-4)]">
             <div className="justify-self-start">
               <NavigationLogo label={brandLabel} onNavigate={handleNavigate} />

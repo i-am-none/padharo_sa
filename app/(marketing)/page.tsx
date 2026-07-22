@@ -1,21 +1,24 @@
-import homeContent from "@/content/home.json";
-import { Atmosphere } from "@/features/marketing/atmosphere";
-import { Cuisine } from "@/features/marketing/cuisine";
-import { Hero } from "@/features/marketing/hero";
-import { Philosophy } from "@/features/marketing/philosophy";
-import type { AtmosphereContentModel } from "@/features/marketing/atmosphere/atmosphere.types";
-import type { CuisineContentModel } from "@/features/marketing/cuisine/cuisine.types";
-import type { PhilosophyContentModel } from "@/features/marketing/philosophy/philosophy.types";
+import { Hero } from '@/features/marketing/hero/Hero';
+import { HospitalitySection } from '@/app/homepage/components/HospitalitySection';
+import { PhilosophySection } from '@/app/homepage/components/PhilosophySection';
+import { SignatureCuisineSection } from '@/app/homepage/components/SignatureCuisineSection';
+import { FeaturedDishesSection } from '@/app/homepage/components/FeaturedDishesSection';
+import { CulinaryJourneyCTA } from '@/app/homepage/components/CulinaryJourneyCTA';
+import { Footer } from '@/app/homepage/components/Footer';
+import homeContent from '@/content/home.json';
 
 export default function HomePage() {
   return (
     <>
-      <Hero content={homeContent.hero} />
-      <Atmosphere content={homeContent.atmosphere as AtmosphereContentModel} />
-      <Philosophy content={homeContent.philosophy as PhilosophyContentModel} />
-      <Cuisine content={homeContent.cuisine as CuisineContentModel} />
-      <div aria-hidden="true" id="experience" />
-      <div aria-hidden="true" id="reservation" />
+      <main>
+        <Hero content={homeContent.hero} highlightWords={["Soul", "Rajasthan"]} />
+        <HospitalitySection />
+        <PhilosophySection />
+        <SignatureCuisineSection />
+        <FeaturedDishesSection />
+        <CulinaryJourneyCTA />
+      </main>
+      <Footer />
     </>
   );
 }

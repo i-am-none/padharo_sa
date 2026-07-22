@@ -1,0 +1,1 @@
+export { ReviewPlatformLink } from "./ReviewPlatformLink";

@@ -1,0 +1,1 @@
+export { PlatformReviewCard } from "./PlatformReviewCard";

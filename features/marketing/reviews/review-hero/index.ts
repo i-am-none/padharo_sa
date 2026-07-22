@@ -1,0 +1,1 @@
+export { ReviewHero } from "./ReviewHero";

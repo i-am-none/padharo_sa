@@ -1,0 +1,203 @@
+{
+  "stories": [
+    {
+      "id": "the-soul-of-rajasthan",
+      "slug": "the-soul-of-rajasthan",
+      "title": "The Soul of Rajasthan: A Journey Through Royal Vegetarian Cuisine",
+      "subtitle": "A Journey Through Royal Vegetarian Cuisine",
+      "category": "heritage",
+      "excerpt": "Food has always been more than nourishment. Across cultures, it has been a language of memories, celebrations, family bonds and identity. Discover how Jain's Little India brings the authentic soul of India to Mauritius through generations of culinary tradition.",
+      "coverImage": "/images/stories/blog-1.png",
+      "author": {
+        "name": "Padharo Sa Kitchen",
+        "role": "Cultural Storytellers"
+      },
+      "publishedAt": "2026-07-11T00:00:00Z",
+      "updatedAt": "2026-07-11T00:00:00Z",
+      "readTime": 8,
+      "featured": true,
+      "seoTitle": "The Soul of Rajasthan: A Journey Through Royal Vegetarian Cuisine | Jain's Little India",
+      "seoDescription": "Discover the traditions, ingredients, and culinary wisdom behind Rajasthan's iconic vegetarian cuisine. Explore authentic Rajasthani food heritage and Indian vegetarian dining in Mauritius at Jain's Little India.",
+      "keywords": [
+        "Rajasthani cuisine Mauritius",
+        "Indian vegetarian restaurant Mauritius",
+        "authentic Indian food Mauritius",
+        "traditional Indian cooking",
+        "royal vegetarian recipes",
+        "heritage cuisine Mauritius"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Food has always been more than nourishment. Across cultures, it has been a language of memories, celebrations, family bonds and identity. For generations, Indian cuisine has travelled across oceans, carrying stories of ancestors, traditions and communities."
+        },
+        {
+          "type": "paragraph",
+          "content": "In Mauritius, where Indian heritage forms an integral part of the island's cultural identity, food became one of the strongest connections between generations. This belief gave birth to Jain's Little India—a culinary destination created with a vision to bring the authentic flavours, warmth and hospitality of India to Mauritius while celebrating the beautiful cultural fusion that makes the island unique."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "The Journey Behind Jain's Little India"
+        },
+        {
+          "type": "paragraph",
+          "content": "The connection between India and Mauritius runs deeper than geography. It is woven through centuries of migration, trade, and cultural exchange. When Indian families arrived on these shores, they carried with them not just belongings, but an entire culinary heritage preserved through generations."
+        },
+        {
+          "type": "paragraph",
+          "content": "Food became cultural preservation. Every recipe carried the memory of ancestral kitchens, every spice blend told stories of regional origins, and every cooking technique represented a lineage of knowledge passed from grandmother to mother to daughter. In preparing traditional dishes, families maintained their connection to the land they left behind while building new lives in an island paradise."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A Culinary Bridge Between Two Worlds"
+        },
+        {
+          "type": "paragraph",
+          "content": "Mauritius is a land where different cultures have lived together for centuries. Among these influences, Indian traditions have deeply shaped the island's festivals, languages, customs and cuisine. From aromatic biryanis and traditional curries to handcrafted sweets and regional delicacies, Indian food in Mauritius represents a connection to ancestral roots."
+        },
+        {
+          "type": "paragraph",
+          "content": "At Jain's Little India, every dish tells a story. The recipes are inspired by India's diverse culinary landscape, where every region has its own identity: the royal richness of Mughlai cuisine, the vibrant spices of Rajasthan, the comforting flavours of North Indian households, and the festive sweets that bring families together."
+        },
+        {
+          "type": "paragraph",
+          "content": "The goal is not simply to serve food, but to recreate an emotional experience. Each plate becomes a bridge between the royal kitchens of Rajasthan and the tropical warmth of Mauritius, between ancient traditions and contemporary dining."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Preserving Authentic Indian Hospitality"
+        },
+        {
+          "type": "paragraph",
+          "content": "Indian hospitality has a timeless philosophy: 'Atithi Devo Bhava' – The guest is treated like God. This spirit defines the Jain's Little India experience. From the moment guests enter, they are welcomed into an atmosphere inspired by Indian warmth, elegance and generosity."
+        },
+        {
+          "type": "paragraph",
+          "content": "The dining experience combines traditional flavours, premium presentation, cultural storytelling, and exceptional service. Every element is designed to make guests feel they are experiencing a journey through India rather than just having a meal. The hospitality extends beyond the plate—it is in the greeting, the ambiance, the attention to detail, and the genuine desire to share culture through cuisine."
+        },
+        {
+          "type": "quote",
+          "content": "Food connects people, and every authentic recipe carries a story waiting to be shared."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "More Than a Restaurant"
+        },
+        {
+          "type": "paragraph",
+          "content": "In today's world, dining has evolved beyond food. Guests seek experiences that create memories. Jain's Little India represents this evolution by creating a space where families celebrate important moments, visitors discover Indian culture, communities reconnect with traditions, and new generations experience their heritage."
+        },
+        {
+          "type": "paragraph",
+          "content": "Each plate becomes a chapter of India's story. The restaurant serves as a cultural ambassador, introducing Mauritius and international visitors to the depth and diversity of Indian vegetarian cuisine. It is a place where food becomes education, where dining becomes discovery, and where every meal strengthens the bonds between cultures."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "The Future of Indian Cuisine in Mauritius"
+        },
+        {
+          "type": "paragraph",
+          "content": "As Mauritius continues to attract travellers from around the world, culinary experiences play an important role in tourism. Jain's Little India aims to become a destination where locals and visitors can discover the richness of Indian cuisine while appreciating the multicultural identity of Mauritius."
+        },
+        {
+          "type": "paragraph",
+          "content": "The vision extends beyond being a restaurant—it is about becoming a cultural institution that preserves and celebrates Indian culinary heritage while contributing to Mauritius's reputation as a gastronomic destination. Because food connects people, and every authentic recipe carries a story waiting to be shared."
+        }
+      ]
+    },
+    {
+      "id": "dal-baati-churma-heritage",
+      "slug": "dal-baati-churma-heritage",
+      "title": "Dal Baati Churma: The Heritage Dish That Carries Rajasthan's Identity",
+      "subtitle": "The Heritage Dish That Carries Rajasthan's Identity",
+      "category": "signature-dishes",
+      "excerpt": "Discover the history behind Rajasthan's most recognised dish and the traditions preserved through every serving. A trinity of flavors that defines a region.",
+      "coverImage": "/images/stories/blog-2.png",
+      "author": {
+        "name": "Padharo Sa Kitchen",
+        "role": "Cultural Storytellers"
+      },
+      "publishedAt": "2026-07-11T00:00:00Z",
+      "updatedAt": "2026-07-11T00:00:00Z",
+      "readTime": 6,
+      "featured": false,
+      "seoTitle": "Dal Baati Churma: Traditional Rajasthan Dish | Padharo Sa Mauritius",
+      "seoDescription": "Discover the history behind Rajasthan's most recognised dish—Dal Baati Churma. Learn about the traditions preserved through every serving at Padharo Sa.",
+      "keywords": [
+        "Dal Baati Mauritius",
+        "traditional Rajasthan dishes",
+        "Indian vegetarian cuisine",
+        "authentic Rajasthani food",
+        "heritage Indian cooking"
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Some dishes are merely food. Others are cultural landmarks. Dal Baati Churma belongs to the latter category—a trinity of flavors so perfectly balanced that it has become synonymous with Rajasthan itself."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "The Three Pillars"
+        },
+        {
+          "type": "paragraph",
+          "content": "The name itself tells the story: Dal (lentil curry), Baati (hard wheat rolls), and Churma (sweetened crushed wheat). Each component serves a purpose, each technique a response to the land's challenges, and together they create a harmony that has sustained generations."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Baati: The Bread of the Desert"
+        },
+        {
+          "type": "paragraph",
+          "content": "Baati was born of necessity. In water-scarce Rajasthan, traditional bread required precious resources. The solution was brilliant: knead wheat dough with minimal water, shape into rounds, and bake in hot sand or cow dung fires. The result was a bread that stayed fresh for days, traveled well, and developed a unique flavor from its cooking method."
+        },
+        {
+          "type": "paragraph",
+          "content": "Today, we bake our baati in traditional clay ovens, honoring the slow cooking that gives it its signature crust and tender interior. It is a testament to how constraint can inspire innovation."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Dal: The Liquid Gold"
+        },
+        {
+          "type": "paragraph",
+          "content": "The dal that accompanies baati is no ordinary lentil curry. It is typically made from five different lentils—the panchmel dal—each contributing its unique texture and nutritional profile. Slow-cooked with garlic, cumin, and other aromatics, it becomes a rich, comforting sauce that perfectly complements the earthy baati."
+        },
+        {
+          "type": "quote",
+          "content": "In every bite of Dal Baati Churma, you taste the resilience of a people who turned scarcity into celebration."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Churma: The Sweet Finale"
+        },
+        {
+          "type": "paragraph",
+          "content": "Churma completes the trinity with sweetness. Traditionally, leftover baati would be crushed, mixed with ghee and jaggery, and sweetened with dried fruits. What began as a way to avoid waste became a beloved dessert—a perfect balance of textures and flavors that rounds off the savory components of the meal."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "A Living Tradition"
+        },
+        {
+          "type": "paragraph",
+          "content": "At Padharo Sa, Dal Baati Churma is not just a menu item—it is our heritage. We prepare it using time-honored methods, sourcing ingredients that honor traditional farming practices, and serving it in a way that respects its cultural significance."
+        },
+        {
+          "type": "paragraph",
+          "content": "When you share this dish with us, you are participating in a tradition that has traveled through centuries, across continents, and into the heart of Mauritius. It is more than a meal—it is a story on a plate."
+        }
+      ]
+    }
+  ]
+}

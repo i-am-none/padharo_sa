@@ -1,0 +1,1 @@
+export { SocialPlatforms } from "./SocialPlatforms";

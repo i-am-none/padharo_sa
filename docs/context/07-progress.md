@@ -14,11 +14,11 @@
 
 **Project:** Padharo Sa Website Redesign
 
-**Repository Status:** Navigation + Hero + Atmosphere + Philosophy + Cuisine + Menu Implemented
+**Repository Status:** Navigation + Hero + Atmosphere + Philosophy + Cuisine + Menu + Stories Editorial System + First Story Article + Reviews/Guest Voices System Implemented
 
-**Current Version:** v0.2.0
+**Current Version:** v0.5.0
 
-**Last Updated:** 2026-07-10
+**Last Updated:** 2026-07-11
 
 ---
 
@@ -30,6 +30,178 @@ The codebase has been reorganized into a scalable three-domain enterprise archit
 
 **Architecture Migration Complete:**
 
+**First Story Article Implementation (Complete):**
+
+- **Brand Story Content Integration:** Adapted the brand story document ("BLOG 1 Brand Story.txt") into a premium editorial article format
+- **Story Details:**
+  - Title: "The Soul of Rajasthan: A Journey Through Royal Vegetarian Cuisine"
+  - Slug: the-soul-of-rajasthan
+  - Category: Heritage & Cuisine
+  - SEO-optimized metadata targeting: Rajasthani cuisine Mauritius, Indian vegetarian restaurant Mauritius, authentic Indian food
+- **Article Structure:** Transformed brand story into structured editorial sections:
+  - Opening narrative on food as memory and cultural identity
+  - Section 1: "The Journey Behind Jain's Little India" - India-Mauritius connection, food as cultural preservation
+  - Section 2: "A Culinary Bridge Between Two Worlds" - Indian diaspora, Mauritian cultural identity, regional Indian cuisine
+  - Section 3: "Preserving Authentic Indian Hospitality" - Atithi Devo Bhava philosophy, hospitality experience
+  - Section 4: "More Than a Restaurant" - dining as experience, cultural storytelling
+  - Section 5: "The Future of Indian Cuisine in Mauritius" - tourism, future vision, destination experience
+  - Pull quote: "Food connects people, and every authentic recipe carries a story waiting to be shared."
+- **Component Enhancements:**
+  - Created `story-cta/StoryCTA.tsx` - Reusable call-to-action component with primary and secondary buttons
+  - Enhanced `StoryDetail.tsx` - Added StoryCTA integration in footer, updated category label to "HERITAGE & CUISINE"
+  - Enhanced `StoryContent.tsx` - Added figcaption for image captions using semantic HTML
+- **Styling Enhancements:** Extended `styles/stories.css` with:
+  - Story CTA component styling with gradient background, elegant typography, responsive button layout
+  - Image caption styling for editorial presentation
+  - Story detail footer styling with border separator
+  - Hover effects with subtle lift and shadow
+- **SEO Implementation:** Verified and confirmed:
+  - Dynamic metadata generation based on story slug
+  - OpenGraph metadata with cover images
+  - Article structured data (JSON-LD) with schema.org/Article
+  - Publisher: Jain's Little India
+  - Author: Padharo Sa Kitchen
+- **Content Separation:** Story content remains in `content/stories.json` following CMS-ready architecture
+- **Reusable Template:** Article template designed for future stories with same component structure
+- **Design Compliance:** Follows luxury hospitality editorial design with dark background, warm gold accents, large serif typography, generous whitespace
+
+**Stories Editorial System Implementation (Complete):**
+
+- **Spec Compliance:** Implemented Stories editorial system according to `docs/specs/12-stories.md`
+- **Data Model Update:** Enhanced `stories.types.ts` to match spec:
+  - Updated categories: heritage, cuisine, signature-dishes, hospitality, mauritius-connection
+  - Added StorySection type for structured article content (heading, paragraph, image, quote)
+  - Added SEO fields: seoTitle, seoDescription, keywords
+  - Added subtitle field for story detail pages
+  - Changed media from nested object to coverImage string for simplicity
+- **New Components Created:**
+  - `story-hero/StoryHero.tsx` - Cinematic hero section with eyebrow, headline, description, and optional media
+  - `story-content/StoryContent.tsx` - Article content renderer for structured sections (headings, paragraphs, images, quotes)
+- **Enhanced Components:**
+  - `StoryCard.tsx` - Premium design with coverImage, elegant typography, hover effects (image scale 1→1.05, overlay fade, CTA movement)
+  - `StoryDetail.tsx` - Full article template with category, title, subtitle, author, date, hero image, introduction, content sections
+  - `Categories.tsx` - Updated to match new category labels
+  - `StoriesClient.tsx` - Enhanced with hero, featured story, categories, grid, CTA, and GSAP motion effects
+- **Stories Page Structure:**
+  - Hero introduction with cinematic design
+  - Featured story section
+  - Category filter
+  - Latest stories grid (responsive: 1/2/3 columns)
+  - Reservation CTA section
+- **Story Detail Page Structure:**
+  - Category badge, title, subtitle
+  - Author and date metadata
+  - Hero image (16:9 aspect ratio)
+  - Introduction paragraph
+  - Article sections (headings, paragraphs, images, quotes)
+  - Related stories section
+  - Reservation CTA
+- **Content Created:** Two initial stories with full editorial content:
+  - "The Soul of Rajasthan: A Journey Through Royal Vegetarian Cuisine" (Heritage & Cuisine)
+  - "Dal Baati Churma: The Heritage Dish That Carries Rajasthan's Identity" (Signature Dishes)
+- **Styling:** Created `styles/stories.css` with luxury hospitality editorial design:
+  - Dark luxury aesthetic with gold accents
+  - Editorial spacing and typography
+  - Premium card designs with hover effects
+  - Responsive behavior (desktop/tablet/mobile)
+  - Cinematic hero section
+  - Article content styling with pull quotes
+- **Motion Effects:** Added GSAP animations following `motion-language.md`:
+  - Story cards entrance: opacity 0→1, translateY 30px→0, stagger 0.15s
+  - Section titles entrance: opacity 0→1, translateY 20px→0
+  - ScrollTrigger-based reveals
+  - Reduced motion support
+- **SEO Implementation:**
+  - Stories index page: metadata, OpenGraph, keywords
+  - Story detail pages: dynamic metadata generation based on slug
+  - OpenGraph images with coverImage
+  - Article structured data (JSON-LD) with schema.org/Article
+  - Publisher: Jain's Little India
+  - Author: Padharo Sa Kitchen
+- **Responsive Behavior:**
+  - Desktop: featured story, multi-column grid, large typography
+  - Tablet: reduced spacing, two-column cards
+  - Mobile: single column, stacked layout
+- **CMS-Ready Structure:** Static JSON data in `content/stories.json` ready for future CMS migration
+- **No CMS/Database:** As requested, no CMS, database, authentication, or admin panel implemented
+
+**Reviews/Guest Voices System Implementation (Complete):**
+
+- **Spec Compliance:** Implemented Reviews/Guest Voices system according to `docs/specs/13-reviews.md`
+- **Navbar Update:** Changed navigation item from "Cuisine" to "Reviews" with route `/reviews`
+- **Data Model Created:** `reviews.types.ts` with TypeScript interfaces:
+  - ReviewPlatform type: google, tripadvisor, direct
+  - Reviewer type with name and optional profile image
+  - PlatformInfo type with rating, total reviews, verification URL, logo
+  - Review type with platform, reviewer, rating, comment, date, verification URL
+  - ReviewsContentModel for overall page structure
+  - FeedbackFormData for visitor feedback form
+- **Content Created:** `content/reviews.json` with placeholder data:
+  - Platform information for Google (4.8 rating, 156 reviews) and Tripadvisor (4.7 rating, 89 reviews)
+  - 3 Google reviews with reviewer info, ratings, comments, dates
+  - 3 Tripadvisor reviews with reviewer info, ratings, comments, dates
+  - 2 featured reviews with extended content
+  - Architecture ready for future API/widget integration
+- **New Components Created:**
+  - `review-hero/ReviewHero.tsx` - Premium hero section with eyebrow, headline, description, and restaurant atmosphere imagery
+  - `rating-summary/RatingSummary.tsx` - Trust dashboard showing Google and Tripadvisor ratings with platform logos, stars, review counts, and verification buttons
+  - `platform-review-card/PlatformReviewCard.tsx` - Individual review card with reviewer info, profile image, rating stars, comment, date, platform badge, and external verification link
+  - `featured-review/FeaturedReview.tsx` - Premium featured review card with large quote, reviewer information, platform badge, verification link, dark luxury background, gold accents
+  - `feedback-form/FeedbackForm.tsx` - Visitor feedback form with name, email (optional), visit date (optional), rating selector, message field, and success state
+  - `review-platform-link/ReviewPlatformLink.tsx` - Reusable platform verification link component with external link icon
+- **Main Components:**
+  - `Reviews.tsx` - Server entry component
+  - `ReviewsClient.tsx` - Client shell with GSAP animations, section composition
+- **Reviews Page Structure:**
+  - Hero section with premium restaurant atmosphere imagery
+  - Overall Rating Summary (Google + Tripadvisor trust dashboard)
+  - Featured Guest Experiences section
+  - Google Reviews section with external verification links
+  - Tripadvisor Reviews section with external verification links
+  - Leave Feedback section with visitor form
+  - Reservation CTA section
+- **Styling:** Created `styles/reviews.css` with premium hospitality editorial design:
+  - Dark luxury aesthetic with gold accents
+  - Elegant typography with display fonts for headlines
+  - Premium card designs with hover effects and subtle shadows
+  - Trust dashboard with platform cards
+  - Featured review cards with quote icons and gradient accents
+  - Feedback form with elegant input styling
+  - Responsive behavior (desktop/tablet/mobile)
+  - Cinematic hero section with media support
+- **Motion Effects:** Added GSAP animations following `motion-language.md`:
+  - Review cards entrance: opacity 0→1, translateY 30px→0, stagger 0.15s
+  - Section titles entrance: opacity 0→1, translateY 20px→0
+  - Rating cards entrance: opacity 0→1, y: 20→0, stagger 0.1s
+  - ScrollTrigger-based reveals
+  - Reduced motion support
+  - Framer Motion hover interactions for cards and buttons
+- **SEO Implementation:**
+  - Reviews page metadata: title, description, keywords
+  - Optimized for: Indian restaurant Mauritius reviews, vegetarian restaurant Mauritius, authentic Indian dining experience
+  - OpenGraph metadata with site name
+  - Future: Review structured data (JSON-LD) where applicable
+- **External Verification:** All reviews include external verification links to:
+  - Google Business Profile for Google reviews
+  - Tripadvisor for Tripadvisor reviews
+  - No review scraping or fake reviews (as requested)
+- **Feedback Form:** Frontend-only implementation with:
+  - Form validation (required fields)
+  - Rating selector with star interaction
+  - Success state after submission
+  - Architecture prepared for future database storage, moderation, and CRM integration
+- **Responsive Behavior:**
+  - Desktop: editorial layout, multi-column grids, large typography
+  - Tablet: reduced spacing, two-column cards
+  - Mobile: single column, stacked layout, readable review cards, easy feedback submission
+- **Future Architecture Preparation:**
+  - Data structure supports future API integration for Google Business Profile and Tripadvisor
+  - Component architecture designed for widget integration
+  - Feedback form prepared for backend integration
+  - No review scraping, fake reviews, or automated generation (as requested)
+
+**Architecture Migration Complete:**
+
 - **Route Groups:** Implemented Next.js App Router Route Groups for domain separation:
   - `(marketing)/` - Luxury storytelling website (homepage, marketing pages)
   - `(commerce)/` - Digital Culinary Experience, Cart, Checkout, Ordering
@@ -37,7 +209,7 @@ The codebase has been reorganized into a scalable three-domain enterprise archit
   - `api/` - Reserved for future API routes (auth, menu, orders, customers, AI, messaging, payments, webhooks, analytics)
 
 - **Features Reorganization:** Reorganized features into domain-specific folders:
-  - `features/marketing/` - hero, atmosphere, philosophy, cuisine, navbar, footer, gallery, reservation, story, experience, contact
+  - `features/marketing/` - hero, atmosphere, philosophy, cuisine, navbar, footer, gallery, reservation, stories, experience, contact
   - `features/commerce/` - menu (with subcomponents for menu hero, collections, categories, dishes, recommendations)
   - `features/operations/` - dashboard, kitchen, crm, inventory, analytics, staff (placeholders for future implementation)
   - `features/shared/` - Reserved for cross-domain shared features
@@ -75,6 +247,8 @@ The codebase has been reorganized into a scalable three-domain enterprise archit
 
 **URL Structure:** Public URLs remain clean:
 - `/` - Homepage (marketing)
+- `/stories` - Stories editorial platform (marketing)
+- `/stories/[slug]` - Individual story detail (marketing)
 - `/menu` - Digital Culinary Experience (commerce)
 - `/cart` - Shopping cart (commerce)
 - `/checkout` - Checkout flow (commerce)
@@ -87,7 +261,8 @@ The codebase has been reorganized into a scalable three-domain enterprise archit
 - Operations domain isolated for internal tools
 - Lib structure prepared for future integrations (AI, database, messaging, payments, storage, auth)
 - Component structure supports domain-specific and shared components
-- No business logic implemented - only architectural reorganization
+- Stories editorial system designed as premium hospitality journal, not generic blog
+- No business logic implemented - only architectural reorganization and Stories feature implementation
 
 ## Phase 3 - Homepage Features
 
@@ -545,6 +720,78 @@ Current Session Summary
 
 Completed:
 
+* **Reviews/Guest Voices System Implementation:** Implemented complete Reviews/Guest Voices experience
+  - Updated navbar navigation: changed "Cuisine" to "Reviews" with route `/reviews`
+  - Created `/reviews` route at `app/(marketing)/reviews/page.tsx` with SEO metadata
+  - Implemented `features/marketing/reviews/` with modular component architecture:
+    - `reviews.types.ts` - TypeScript interfaces for ReviewPlatform, Reviewer, PlatformInfo, Review, ReviewsContentModel, FeedbackFormData
+    - `Reviews.tsx` - Server entry component following established pattern
+    - `ReviewsClient.tsx` - Client shell with GSAP animations and section composition
+    - `review-hero/ReviewHero.tsx` - Premium hero section with eyebrow, headline, description, and restaurant atmosphere imagery
+    - `rating-summary/RatingSummary.tsx` - Trust dashboard showing Google and Tripadvisor ratings with platform logos, stars, review counts, and verification buttons
+    - `platform-review-card/PlatformReviewCard.tsx` - Individual review card with reviewer info, profile image, rating stars, comment, date, platform badge, and external verification link
+    - `featured-review/FeaturedReview.tsx` - Premium featured review card with large quote, reviewer information, platform badge, verification link, dark luxury background, gold accents
+    - `feedback-form/FeedbackForm.tsx` - Visitor feedback form with name, email (optional), visit date (optional), rating selector, message field, and success state
+    - `review-platform-link/ReviewPlatformLink.tsx` - Reusable platform verification link component with external link icon
+  - Created content model in `content/reviews.json` with placeholder data:
+    - Platform information for Google (4.8 rating, 156 reviews) and Tripadvisor (4.7 rating, 89 reviews)
+    - 3 Google reviews with reviewer info, ratings, comments, dates
+    - 3 Tripadvisor reviews with reviewer info, ratings, comments, dates
+    - 2 featured reviews with extended content
+    - Architecture ready for future API/widget integration
+  - Reviews page structure: Hero → Rating Summary → Featured Reviews → Google Reviews → Tripadvisor Reviews → Feedback Form → Reservation CTA
+  - Created `styles/reviews.css` with premium hospitality editorial design:
+    - Dark luxury aesthetic with gold accents
+    - Elegant typography with display fonts for headlines
+    - Premium card designs with hover effects and subtle shadows
+    - Trust dashboard with platform cards
+    - Featured review cards with quote icons and gradient accents
+    - Feedback form with elegant input styling
+    - Responsive behavior (desktop/tablet/mobile)
+    - Cinematic hero section with media support
+  - Added GSAP animations following motion-language.md:
+    - Review cards entrance: opacity 0→1, translateY 30px→0, stagger 0.15s
+    - Section titles entrance: opacity 0→1, translateY 20px→0
+    - Rating cards entrance: opacity 0→1, y: 20→0, stagger 0.1s
+    - ScrollTrigger-based reveals
+    - Reduced motion support
+    - Framer Motion hover interactions for cards and buttons
+  - SEO implementation: metadata optimized for Indian restaurant Mauritius reviews, vegetarian restaurant Mauritius, authentic Indian dining experience
+  - External verification: all reviews include external verification links to Google Business Profile and Tripadvisor
+  - No review scraping or fake reviews (as requested)
+  - Feedback form: frontend-only implementation prepared for future database storage, moderation, and CRM integration
+  - Updated progress tracker with version v0.5.0 and implementation details
+
+* **First Story Article Implementation:** Implemented the first premium editorial story article
+  - Adapted brand story document into structured long-form editorial content
+  - Created 5 editorial sections with narrative flow from cultural heritage to future vision
+  - Added pull quote for visual rhythm and emphasis
+  - Created reusable StoryCTA component for closing call-to-action
+  - Enhanced StoryDetail and StoryContent components for premium experience
+  - Extended stories.css with luxury editorial styling for CTA and captions
+  - Verified SEO metadata and structured data implementation
+  - Story accessible at /stories/the-soul-of-rajasthan
+  - Template designed for reuse with future stories
+
+* **Stories Content Architecture Implementation:** Created complete Stories editorial content platform
+  * Updated navbar configuration to change "Story" to "Stories" with route `/stories`
+  * Created `/stories` listing page at `app/(marketing)/stories/page.tsx`
+  * Created `/stories/[slug]` dynamic route at `app/(marketing)/stories/[slug]/page.tsx`
+  * Implemented `features/marketing/stories/` with modular component architecture:
+    - `stories.types.ts` - TypeScript interfaces for Story, StoryCategory, StoryMedia, StoryAuthor, StoriesContentModel
+    - `Stories.tsx` - Server entry component following established pattern
+    - `StoriesClient.tsx` - Client shell with category filtering and story grid
+    - `story-card/StoryCard.tsx` - Individual story card with image, category badge, title, excerpt, metadata
+    - `story-grid/StoryGrid.tsx` - Responsive grid (1/2/3 columns) for story cards
+    - `story-detail/StoryDetail.tsx` - Full story view with author, media, content, tags
+    - `categories/Categories.tsx` - Category filter (All, Heritage, Culinary, Chef, Events, Culture, Experience)
+    - `related-stories/RelatedStories.tsx` - Related stories section for detail pages
+  * Content categories support: heritage articles, culinary stories, chef stories, events, Mauritius cultural content, restaurant experiences
+  * Architecture designed for SEO growth, search visibility, AI discovery, and customer education
+  * Placeholder implementation ready for future CMS/database integration
+  * No CMS, database, admin panel, authentication, or content editor implemented (as requested)
+  * Updated progress tracker with version v0.3.0 and implementation details
+
 * **Architecture Migration Completion:** Completed the repository architecture migration to match the target enterprise-grade structure
   * Reorganized documentation into centralized `docs/` folder with subfolders: `context/`, `specs/`, `architecture/`, `references/`, `prompts/`
   * Moved `commerce/` architecture documents to `docs/architecture/`
@@ -607,7 +854,7 @@ Completed:
   * Premium CTA styling with hover interactions
 * Extended Cuisine content model in `content/home.json` with:
   * Eyebrow, headline, copy, and quote
-  * Three signature dishes (Laal Maas, Dal Bati Churma, Ker Sangri)
+  * Three signature dishes (Gatte ki Sabzi, Dal Bati Churma, Ker Sangri)
   * Ingredient highlights for each dish
   * Video media configuration using existing assets
   * Premium CTA with navigation to /menu
@@ -630,7 +877,7 @@ Completed:
   * Hero content (eyebrow, headline, description, media)
   * Featured collections (Royal Feast, Street Food, Vegetarian Delights)
   * Categories (Starters, Main Course, Breads, Desserts, Beverages)
-  * Dishes (Laal Maas, Dal Bati Churma, Ker Sangri, Gatte ki Sabzi, Pyaaz Kachori, Mirchi Vada, Ghevar, Malpua)
+  * Dishes (Dal Bati Churma, Ker Sangri, Gatte ki Sabzi, Pyaaz Kachori, Mirchi Vada, Ghevar, Malpua)
   * Smart recommendations with reasoning
   * Transition CTA with ordering flow navigation
 * Created App Router structure for `/menu` page at `app/menu/page.tsx`.

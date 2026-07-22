@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "id": "reservation",
+    "eyebrow": "Reserve Your Experience",
+    "headline": "Your Table Awaits",
+    "copy": "Experience authentic Rajasthan hospitality. Join us for an unforgettable dining journey where every meal tells a story of tradition, flavor, and warmth.",
+    "video": {
+      "poster": "/images/hero-poster.svg",
+      "sources": [
+        {
+          "src": "/videos/Reservation/buffet.mp4",
+          "type": "video/mp4"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "reviews",
+  "eyebrow": "Guest Voices",
+  "headline": "What our guests say about their experience",
+  "description": "Every review represents a real guest journey. Discover authentic experiences from diners who have explored Rajasthan's culinary heritage at our table.",
+  "platforms": {
+    "google": {
+      "name": "Google",
+      "rating": 4.8,
+      "totalReviews": 156,
+      "verificationUrl": "https://search.google.com/local/writereview",
+      "logo": "/logos/google.png"
+    },
+    "tripadvisor": {
+      "name": "Tripadvisor",
+      "rating": 4.7,
+      "totalReviews": 89,
+      "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit",
+      "logo": "/logos/TripAdvisor.png"
+    }
+  },
+  "googleReviews": [
+    {
+      "id": "gr-1",
+      "platform": "google",
+      "reviewer": {
+        "name": "Priya Sharma",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "An absolutely authentic Rajasthani dining experience. The dal baati churma transported me straight to Jaipur. The flavors are genuine and the hospitality is warm and welcoming.",
+      "date": "2024-01-15",
+      "verificationUrl": "https://search.google.com/local/writereview"
+    },
+    {
+      "id": "gr-2",
+      "platform": "google",
+      "reviewer": {
+        "name": "Rajesh Patel",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "Best vegetarian Indian food in Mauritius. The gatte ki sabzi and ker sangri were exceptional. A must-visit for anyone craving authentic Rajasthani cuisine.",
+      "date": "2024-01-10",
+      "verificationUrl": "https://search.google.com/local/writereview"
+    },
+    {
+      "id": "gr-3",
+      "platform": "google",
+      "reviewer": {
+        "name": "Sarah Johnson",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 4,
+      "comment": "Wonderful atmosphere and delicious food. The staff was knowledgeable about the dishes and their origins. Highly recommend the thali for a complete experience.",
+      "date": "2024-01-05",
+      "verificationUrl": "https://search.google.com/local/writereview"
+    }
+  ],
+  "tripadvisorReviews": [
+    {
+      "id": "tr-1",
+      "platform": "tripadvisor",
+      "reviewer": {
+        "name": "Michael Chen",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "Hidden gem in Mauritius! The authentic flavors of Rajasthan are perfectly preserved. Every dish tells a story of tradition and craftsmanship.",
+      "date": "2024-01-12",
+      "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit"
+    },
+    {
+      "id": "tr-2",
+      "platform": "tripadvisor",
+      "reviewer": {
+        "name": "Emma Williams",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "Exceptional vegetarian cuisine. The attention to detail in each dish is remarkable. The laal maas vegetarian version was a pleasant surprise.",
+      "date": "2024-01-08",
+      "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit"
+    },
+    {
+      "id": "tr-3",
+      "platform": "tripadvisor",
+      "reviewer": {
+        "name": "David Kumar",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 4,
+      "comment": "Authentic taste of Rajasthan in Mauritius. The spices are perfectly balanced and the presentation is elegant. Will definitely return.",
+      "date": "2024-01-03",
+      "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit"
+    }
+  ],
+  "featuredReviews": [
+    {
+      "id": "fr-1",
+      "platform": "google",
+      "reviewer": {
+        "name": "Priya Sharma",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "An absolutely authentic Rajasthani dining experience. The dal baati churma transported me straight to Jaipur. The flavors are genuine and the hospitality is warm and welcoming. This is not just a meal, it's a journey through Rajasthan's rich culinary heritage.",
+      "date": "2024-01-15",
+      "verificationUrl": "https://search.google.local/writereview",
+      "featured": true
+    },
+    {
+      "id": "fr-2",
+      "platform": "tripadvisor",
+      "reviewer": {
+        "name": "Michael Chen",
+        "profileImage": "/logos/review-profile-placeholder.jpg"
+      },
+      "rating": 5,
+      "comment": "Hidden gem in Mauritius! The authentic flavors of Rajasthan are perfectly preserved. Every dish tells a story of tradition and craftsmanship. The staff's passion for their cuisine shines through in every bite.",
+      "date": "2024-01-12",
+      "verificationUrl": "https://www.tripadvisor.com/UserReviewEdit",
+      "featured": true
+    }
+  ]
+}

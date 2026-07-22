@@ -1,0 +1,1 @@
+export { FeaturedGallery } from "./FeaturedGallery";

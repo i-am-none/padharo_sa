@@ -14,27 +14,11 @@
     },
     "scrollLabel": "Scroll to continue the Padharo Sa story",
     "video": {
-      "poster": "/images/food/pexels-anand-raj-222546-5775684.jpg",
+      "poster": "Home/JLI/hero-poster",
       "sources": [
         {
-          "src": "/videos/9797433-hd_1920_1080_25fps.mp4",
-          "type": "video/mp4"
-        },
-        {
-          "src": "/videos/15226191_1920_1080_50fps.mp4",
-          "type": "video/mp4"
-        },
-        {
-          "src": "/videos/15193692_1920_1080_50fps.mp4",
-          "type": "video/mp4"
-        },
-        {
-          "src": "/videos/12058447_3840_2160_60fps.mp4",
-          "type": "video/mp4"
-        },
-        {
-          "src": "/videos/8811060-hd_1920_1080_25fps.mp4",
-          "type": "video/mp4"
+          "src": "Home-Hero_hoozwu.webm",
+          "type": "video/webm"
         }
       ]
     }
@@ -48,11 +32,11 @@
     "media": {
       "type": "video",
       "video": {
-        "poster": "/images/hero-poster.svg",
+        "poster": "Experience-Arrival3_bp3hsl.webm",
         "sources": [
           {
-            "src": "/videos/jli_tribeca.mp4",
-            "type": "video/mp4"
+            "src": "Experience-Arrival3_bp3hsl.webm",
+            "type": "video/webm"
           }
         ]
       }
@@ -85,11 +69,11 @@
     "media": {
       "type": "video",
       "video": {
-        "poster": "/images/hero-poster.svg",
+        "poster": "Home/JLI/hero-poster",
         "sources": [
           {
-            "src": "/videos/8811071-hd_1920_1080_25fps.mp4",
-            "type": "video/mp4"
+            "src": "Experience-Hero_ya6s14.webm",
+            "type": "video/webm"
           }
         ]
       }
@@ -104,59 +88,56 @@
     "media": {
       "type": "video",
       "video": {
-        "poster": "/images/food/pexels-anand-raj-222546-5775684.jpg",
+        "poster": "Home/JLI/hero-poster",
         "sources": [
           {
-            "src": "/videos/15226191_1920_1080_50fps.mp4",
-            "type": "video/mp4"
+            "src": "Crafted-By-People_pommqq.webm",
+            "type": "video/webm"
           }
         ]
       }
     },
     "dishes": [
       {
-        "id": "laal-maas",
-        "name": "Laal Maas",
-        "description": "A legendary Rajasthani lamb curry, slow-cooked with traditional mathani chilies and aromatic spices, creating a rich, fiery red dish that embodies the warrior spirit of Rajasthan.",
-        "ingredients": [
-          {
-            "name": "Tender lamb",
-            "highlight": true
-          },
-          {
-            "name": "Mathani chilies",
-            "highlight": true
-          },
-          {
-            "name": "Cumin",
-            "highlight": false
-          },
-          {
-            "name": "Coriander",
-            "highlight": false
-          },
-          {
-            "name": "Garlic",
-            "highlight": false
-          },
-          {
-            "name": "Ginger",
-            "highlight": false
-          }
-        ],
-        "media": {
-          "type": "video",
-          "video": {
-            "poster": "/images/hero-poster.svg",
-            "sources": [
-              {
-                "src": "/videos/padharo_sa_1.mp4",
-                "type": "video/mp4"
-              }
-            ]
-          }
-        }
-      },
+  "id": "gatte-ki-sabzi",
+  "name": "Gatte Ki Sabzi",
+  "description": "A classic Rajasthani vegetarian delight featuring tender gram flour (besan) dumplings simmered in a tangy, spicy yogurt-based gravy, flavored with traditional whole spices.",
+  "ingredients": [
+    {
+      "name": "Gram flour (Besan)",
+      "highlight": true
+    },
+    {
+      "name": "Yogurt",
+      "highlight": true
+    },
+    {
+      "name": "Coriander seeds",
+      "highlight": false
+    },
+    {
+      "name": "Fennel seeds",
+      "highlight": false
+    },
+    {
+      "name": "Red chili powder",
+      "highlight": false
+    },
+    {
+      "name": "Asafoetida (Hing)",
+      "highlight": false
+    }
+  ],
+  "media": {
+    "type": "image",
+    "image": {
+      "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608116/gatte_fcadmt.jpg",
+      "width": 800,
+      "height": 600,
+      "alt": "Gatte Ki Sabzi - a classic Rajasthani vegetarian dish with gram flour dumplings in tangy yogurt gravy"
+    }
+  }
+},
       {
         "id": "dal-bati-churma",
         "name": "Dal Bati Churma",
@@ -188,15 +169,12 @@
           }
         ],
         "media": {
-          "type": "video",
-          "video": {
-            "poster": "/images/hero-poster.svg",
-            "sources": [
-              {
-                "src": "/videos/jli_tribeca.mp4",
-                "type": "video/mp4"
-              }
-            ]
+          "type": "image",
+          "image": {
+            "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608051/blog-2_bwvl7y.png",
+            "width": 800,
+            "height": 600,
+            "alt": "Dal Bati Churma - the quintessential Rajasthani trio of wheat bati, lentil curry, and sweet crushed wheat"
           }
         }
       },
@@ -231,15 +209,12 @@
           }
         ],
         "media": {
-          "type": "video",
-          "video": {
-            "poster": "/images/hero-poster.svg",
-            "sources": [
-              {
-                "src": "/videos/8811071-hd_1920_1080_25fps.mp4",
-                "type": "video/mp4"
-              }
-            ]
+          "type": "image",
+          "image": {
+            "src": "https://res.cloudinary.com/zrqybpla/image/upload/v1784608115/pexels-everest-tandoori-1591826630-27929056_gsdkik.jpg",
+            "width": 800,
+            "height": 600,
+            "alt": "Ker Sangri - a desert delicacy with wild berries and dried beans cooked with yogurt and spices"
           }
         }
       }

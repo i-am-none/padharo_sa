@@ -1,0 +1,166 @@
+{
+  "id": "gallery",
+  "eyebrow": "Visual Journey",
+  "headline": "A Glimpse Into Our World",
+  "description": "Every frame captures the traditions, flavours, and hospitality of Rajasthan. Experience the atmosphere, cuisine, culture, and emotions that define Padharo Sa.",
+  "items": [
+    {
+      "id": "gallery-1",
+      "type": "image",
+      "src": "/images/food/gal1.jpg",
+      "title": "Dal Baati Churma Presentation",
+      "category": "culinary",
+      "description": "Our signature dish presented with traditional Rajasthani elegance"
+    },
+    {
+      "id": "gallery-2",
+      "type": "image",
+      "src": "/images/food/gal2.jpg",
+      "title": "Royal Dining Ambience",
+      "category": "ambience",
+      "description": "Experience the warmth of Indian hospitality in our elegant dining space"
+    },
+    {
+      "id": "gallery-3",
+      "type": "video",
+      "src": "/videos/padharo_shot_1.mp4",
+      "poster": "/images/hero-poster.svg",
+      "title": "Culinary Craftsmanship",
+      "category": "behind-scenes",
+      "description": "Watch our chefs prepare authentic Rajasthani delicacies"
+    },
+    {
+      "id": "gallery-4",
+      "type": "image",
+      "src": "/images/food/gal3.jpg",
+      "title": "Traditional Thali Experience",
+      "category": "culinary",
+      "description": "A complete Rajasthani thali featuring diverse flavours and textures"
+    },
+    {
+      "id": "gallery-5",
+      "type": "image",
+      "src": "/images/food/gal4.jpg",
+      "title": "Family Celebrations",
+      "category": "hospitality",
+      "description": "Creating memorable moments for families and friends"
+    },
+    {
+      "id": "gallery-6",
+      "type": "image",
+      "src": "/images/food/gal5.jpg",
+      "title": "Heritage Artwork",
+      "category": "culture",
+      "description": "Traditional Rajasthani art adorning our walls"
+    },
+    {
+      "id": "gallery-7",
+      "type": "video",
+      "src": "/videos/jli_tribeca.mp4",
+      "poster": "/images/hero-poster.svg",
+      "title": "Behind the Scenes",
+      "category": "behind-scenes",
+      "description": "A glimpse into our kitchen where traditions come alive"
+    },
+    {
+      "id": "gallery-8",
+      "type": "image",
+      "src": "/images/gallery/ghevar-sweet.jpg",
+      "title": "Ghevar Delight",
+      "category": "culinary",
+      "description": "Traditional Rajasthani sweet crafted with precision"
+    },
+    {
+      "id": "gallery-9",
+      "type": "image",
+      "src": "/images/food/chef.jpg",
+      "title": "Warm Hospitality",
+      "category": "hospitality",
+      "description": "Our team ensuring every guest feels like family"
+    },
+    {
+      "id": "gallery-10",
+      "type": "image",
+      "src": "/images/res/res1.jpg",
+      "title": "Evening Atmosphere",
+      "category": "ambience",
+      "description": "The magical ambiance of dining under warm lights"
+    },
+    {
+      "id": "gallery-11",
+      "type": "image",
+      "src": "/images/res/res2.jpg",
+      "title": "Cultural Textiles",
+      "category": "culture",
+      "description": "Authentic Rajasthani textiles showcasing rich heritage"
+    },
+    {
+      "id": "gallery-12",
+      "type": "image",
+      "src": "/images/gallery/spice-display.jpg",
+      "title": "Aromatic Spices",
+      "category": "culinary",
+      "description": "The foundation of authentic Indian cuisine"
+    },
+    {
+      "id": "gallery-13",
+      "type": "video",
+      "src": "/videos/padharo_shot_2.mp4",
+      "poster": "/images/hero-poster.svg",
+      "title": "Restaurant Tour",
+      "category": "ambience",
+      "description": "Take a virtual tour of our elegant space"
+    },
+    {
+      "id": "gallery-14",
+      "type": "image",
+      "src": "/images/gallery/celebration-dinner.jpg",
+      "title": "Special Celebrations",
+      "category": "hospitality",
+      "description": "Making every occasion extraordinary"
+    },
+    {
+      "id": "gallery-15",
+      "type": "image",
+      "src": "/images/gallery/rajasthani-decor.jpg",
+      "title": "Cultural Decor",
+      "category": "culture",
+      "description": "Authentic decor elements from Rajasthan"
+    },
+    {
+      "id": "gallery-16",
+      "type": "image",
+      "src": "/images/gallery/plating-detail.jpg",
+      "title": "Artistic Plating",
+      "category": "culinary",
+      "description": "Where culinary art meets visual presentation"
+    }
+  ],
+  "socialPlatforms": {
+    "instagram": {
+      "url": "https://instagram.com/padharosa",
+      "purpose": "Daily stories and visual updates",
+      "cta": "Visit Instagram"
+    },
+    "facebook": {
+      "url": "https://facebook.com/padharosa",
+      "purpose": "Community updates",
+      "cta": "Visit Facebook"
+    },
+    "tiktok": {
+      "url": "https://tiktok.com/@padharosa",
+      "purpose": "Short-form videos",
+      "cta": "Watch Videos"
+    },
+    "tripadvisor": {
+      "url": "https://tripadvisor.com/padharosa",
+      "purpose": "Traveler experiences",
+      "cta": "Explore Tripadvisor"
+    },
+    "google": {
+      "url": "https://google.com/maps/padharosa",
+      "purpose": "Photos and customer uploads",
+      "cta": "View Google Photos"
+    }
+  }
+}

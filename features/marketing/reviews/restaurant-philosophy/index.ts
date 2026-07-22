@@ -1,0 +1,1 @@
+export { RestaurantPhilosophy } from "./RestaurantPhilosophy";
